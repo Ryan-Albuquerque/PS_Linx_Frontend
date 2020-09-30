@@ -1,0 +1,21 @@
+footer{
+    display: flex;
+    justify-content: space-between;
+
+    width: 70%;
+    margin: 0px auto 15px;
+}
+
+.companyName h3{
+    color: #AA1423;
+    font-size: 25px;
+}
+
+.iconTwitter{
+    width: 40px;
+}
+
+.iconFacebook{
+    margin-left: 20px;
+    width: 40px;
+}

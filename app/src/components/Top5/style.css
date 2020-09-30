@@ -1,0 +1,55 @@
+.Top5{
+    margin: 50px auto 100px auto;
+
+    color: #AA1423;
+}
+
+#top5title{
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 30px;
+
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+#top5table{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    margin: 50px auto;
+}
+
+#top5table tr{
+    display: flex;
+    justify-content: space-between;
+
+    margin: auto 20%;
+
+    font-size: 25px;
+
+    border-bottom: 2px solid #EEE;
+}
+
+#top5table td{
+    padding: 10px;
+}
+
+#top5table td a {
+    text-decoration: none;
+    color: #AA1423;
+}
+
+#numberHits{
+    color: #777;
+}
+
+
+@media screen and (max-width:650px){
+    #top5table tr {
+        margin: auto 0%;
+        font-size: 20px;
+    }
+}
