@@ -47,6 +47,11 @@
 app
 ├── README.md
 ├── node_modules
+├── .env
+├── .env-example
+├── package-lock.json
+├── yarn.lock
+├── .gitignore
 ├── package.json
 ├── .gitignore
 ├── public
