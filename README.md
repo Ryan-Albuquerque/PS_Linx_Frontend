@@ -1,4 +1,4 @@
-## PS_LINX_Frontend: It's backefrontendnd of the Linx's Intern Challenge
+## PS_LINX_Frontend: It's frontend of the Linx's Intern Challenge
 
 ### `First of all`
 
