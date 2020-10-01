@@ -23,7 +23,7 @@ function Convert() {
             setShortUrl(response.data.shortUrl)
             return toast.success("Converted with sucessfull", {autoClose:2000})
         } catch (error) {
-            return toast.error(error.message, {autoClose:2000})    
+            return toast.error(error.response.data.message, {autoClose:2000})    
         }
 
 
